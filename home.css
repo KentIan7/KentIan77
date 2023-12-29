@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    animation: transitionIn 0.8s;
+}
+
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transition: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transition: translateY(0px);
+    }
+}
+
+
+.navbar{
+    position: relative;
+    border-top: 30px 50px;
+    background-color: #000000;
+    box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0);
+    text-align: center;
+}
+
+.header{
+    background-image: url(imglogo/colorkit\ \(1\).png);
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    color: #7c0000;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    width: 180px;
+    margin: 15px;
+    padding: 2px;
+}
+
+ul li a{
+    font-family: 'TT Chocolates';
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 8px;
+    text-decoration: none;
+    color: #fff;
+}
+
+ul li a:hover{
+    border-radius: 32px;
+    background-color: #fff;
+    color: rgb(102, 0, 0);
+    transition: .5s;
+}
+
+.Logo{
+    padding: relative;
+    position: absolute;
+    align-items: center;
+    left: 55px;
+    top: 8px;
+}
+
+.Logo img{
+    position: relative;
+    width: 35px;
+    height: auto;
+}
+
+.Pic {
+    position: absolute;
+    align-items: center;
+    left: 100px;
+    bottom: 5px;
+}
+
+.Pic img{
+    align-items: center;
+    top: -80px;
+    left: 100px;
+    bottom: 25px;
+    position: relative;
+    width: 380px;
+    height: auto;
+}
+
+.Text{
+    position: absolute; 
+    right: 130px;
+    padding: 16px;
+    font-size: 10px;
+    top: 120px;
+}
+
+.Text h1{
+    font-family: Gill sans;
+    font-size: 100px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.Text2 p{
+    right: 50px;
+    position: absolute;
+    font-size: 50px;
+    top: 230px;
+    font-family: Archivo rgb(255, 255, 255);
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.Text3 p{
+    right: 25px;
+    justify-content: space-around;
+    position: absolute;
+    font-size: 20px;
+    top: 300px;
+    font-family: Archivo Black;
+    font-weight: 800;
+    color: #ffffff;
+}
+.Text5 p{
+    right: 25px;
+    justify-content: space-around;
+    position: absolute;
+    font-size: 20px;
+    top: 325px;
+    font-family: Archivo Black;
+    font-weight: 800;
+    color: #ffffff;
+}
+.Text6 p{
+    right: 25px;
+    justify-content: space-around;
+    position: absolute;
+    font-size: 20px;
+    top: 350px;
+    font-family: Archivo Black;
+    font-weight: 800;
+    color: #ffffff;
+}
+.Text4 p{
+    font-family: 'Century Gothic';
+    right: 320px;
+    font-size: 20px;
+    position: absolute;
+    top: 420px;
+    color: #fff;
+    font-weight: 550;
+}
+
+.FB{
+    position: absolute;
+    top:420px;
+    right: 300px;
+}
+.FB img{
+    align-items: center;
+    position: absolute;
+    width: 25px;
+    height: auto;
+}
+
+.Twitter{
+    position: absolute;
+    top:420px;
+    right: 255px;
+}
+.Twitter img{
+    align-items: center;
+    position: absolute;
+    width: 25px;
+    height: auto;
+}
+
+.Instagram{
+    position: absolute;
+    top:420px;
+    right: 210px;
+}
+.Instagram img{
+    align-items: center;
+    position: absolute;
+    width: 25px;
+    height: auto;
+}
+
+.info_container {
+    background-color: #141414;
+    position: absolute;
+    right: 300px;
+    bottom: px;
+  }
+  .info_container h1{
+    right: 110px;
+    position: absolute;
+    font-size: 35px;
+    top: 40px;
+    font-family: Archivo Black;
+    font-weight: 800;
+    color: black;
+  }
+  .future img {
+    align-items: center;
+    position: absolute;
+ 
+  }
+footer{
+    bottom: 100;
+    left: 0;
+    right: 0;
+    background: rgb(255, 255, 255);
+    height: auto;
+    width: 100%;
+    font-family: sans-serif;
+    padding-top: 60px;
+    
+  }
+  .foooter{
+    font-size: 15px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    text-align:  center;
+    color: #000000;
+    font-size: 20px;
+  }
